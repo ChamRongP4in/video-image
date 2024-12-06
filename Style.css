@@ -28,21 +28,18 @@ html::-webkit-scrollbar-thumb {
 
 /* ==== container ==== */
 
-h3 {
-    text-align: center;
-}
-
 .Wrab-page {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
-    columns: 7rem;
+    columns: 14rem;
     align-items: center;
 }
 
 .img-video {
-    width: 100%;
+    width: 250px;
     margin-bottom: 1rem;
+    border-radius: 15px;
 }
 
 
@@ -66,12 +63,49 @@ h3 {
 
 /* ==== iphone 14 ==== */
 @media (max-width: 440px) {
+    .Wrab-page {
+        columns: 12rem;
+    }
+    .img-video {
+        width: 192px;
+        
+    }
+}
 
+
+/* ==== iphone 11 ==== */
+@media (max-width: 414px) {
+    .Wrab-page {
+        columns: 12rem;
+    }
+    .img-video {
+        width: 185px;
+        
+    }
 }
 
 
 
 /* ==== iphone X ==== */
 @media (max-width: 390px) {
+    .Wrab-page {
+        columns: 14rem;
+    }
+    .img-video {
+        width: 165px;
+        
+    }
+}
 
+
+
+/* ==== Android ==== */
+@media (max-width: 360px) {
+    .Wrab-page {
+        columns: 14rem;
+    }
+    .img-video {
+        width: 158px;
+        
+    }
 }
