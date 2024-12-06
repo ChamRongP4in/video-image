@@ -40,7 +40,6 @@ body {
     margin: auto;
     width: 1138px;
     background: linear-gradient(to right, #3d5aff36, #df5eff48);
-    border-radius: 40px;
     box-shadow: 0 0 1rem rgb(0, 0, 0);
 }
 
@@ -86,7 +85,6 @@ h3 {
         height: auto;
         width: 360px;
         background-color: #ffffff49;
-        border-radius: 40px;
         box-shadow: 0 0 1rem rgb(17, 17, 17);
     }
 }
@@ -100,7 +98,6 @@ h3 {
         height: auto;
         width: 330px;
         background-color: #ffffff49;
-        border-radius: 40px;
         box-shadow: 0 0 1rem rgb(17, 17, 17);
     }
 }
