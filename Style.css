@@ -25,31 +25,16 @@ html::-webkit-scrollbar-thumb {
 
 
 
-/* ==== Body ==== */
-body {
-    background-image: url(/image/picCute.jpg);
-    height: 100vh;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 20%;
-}
-
 
 /* ==== container ==== */
-.container {
-    margin: auto;
-    width: 1138px;
-    background: linear-gradient(to right, #3d5aff36, #df5eff48);
-    box-shadow: 0 0 1rem rgb(0, 0, 0);
-}
 
 h3 {
     text-align: center;
 }
 
 .Wrab-page {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     position: relative;
     columns: 7rem;
     align-items: center;
@@ -69,6 +54,7 @@ h3 {
     width: 100%;
     border: 0;
     border-bottom: 1px solid #000000;
+    margin-top: 400px;
 }
 .copyright {
     text-align: center;
@@ -80,24 +66,12 @@ h3 {
 
 /* ==== iphone 14 ==== */
 @media (max-width: 440px) {
-    .container {
-        margin: auto;
-        height: auto;
-        width: 360px;
-        background-color: #ffffff49;
-        box-shadow: 0 0 1rem rgb(17, 17, 17);
-    }
+
 }
 
 
 
 /* ==== iphone X ==== */
 @media (max-width: 390px) {
-    .container {
-        margin: auto;
-        height: auto;
-        width: 330px;
-        background-color: #ffffff49;
-        box-shadow: 0 0 1rem rgb(17, 17, 17);
-    }
+
 }
