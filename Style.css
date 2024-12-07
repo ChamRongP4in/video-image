@@ -39,26 +39,31 @@ html::-webkit-scrollbar-thumb {
     top: 0;
     z-index: 100;
 }
+
 .navbar .logo {
     font-weight: bold;
     font-size: 18px;
     color: #000;
 }
+
 .navbar .search-bar {
     flex: 1;
     margin: 0 20px;
 }
+
 .navbar .search-bar input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 20px;
 }
+
 .navbar .icons {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .navbar .icons div {
     width: 24px;
     height: 24px;
@@ -68,6 +73,7 @@ html::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 }
+
 .navbar .profile-pic {
     width: 30px;
     height: 30px;
